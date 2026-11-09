@@ -3,7 +3,7 @@
 This file tells the AI coding assistant HOW to build and maintain this project.
 
 WHAT to build is defined in `SPEC.md`.
-WHAT IS TRUE about the Königsforst is defined in `data/`.
+WHAT IS TRUE about the Königsforst is defined in `FACTS.md`.
 
 ## Stack
 
