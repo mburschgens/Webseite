@@ -1,0 +1,223 @@
+{
+  "page": {
+    "heroIntro": "Der Königsforst lässt sich zu Fuß und mit dem Rad erkunden. Hier findest du Routen, besondere Orte und Naturwissen für deinen Besuch — mit klaren Hinweisen, wenn etwas noch nicht bestätigt ist.",
+    "mapStatus": "Geodaten fehlen",
+    "mapNote": "Eine verlässliche Lagekarte mit eingezeichneten Wegen und Orten liegt noch nicht vor. Die Übersicht zeigt deshalb dokumentierte Wegtypen und führt zu den verfügbaren Routendaten — sie ist keine Karte und bildet keine Lagebeziehungen ab.",
+    "overview": "Ob Rundwanderung, Radtour oder Entdeckungstour mit der Familie: Monte Troodelöh, Wildgehege Brück und Lebensräume für viele Pflanzen und Tiere sind mögliche Ziele. Sichtungen und aktuelle Bedingungen lassen sich nicht versprechen.",
+    "natureIntro": "Die Artenliste beruht auf recherchierten Quellen, ihre aktuelle Anwesenheit und genaue Verbreitung sind jedoch nicht für alle Arten bestätigt. Tiere in einem Gehege sind nicht mit freilebenden Tieren gleichzusetzen.",
+    "natureNotice": "Verifizierte Verhaltenshinweise zu Wildschweinen und anderen Wildtieren liegen noch nicht vor. Bitte beachte die Hinweise der zuständigen Stellen vor Ort; konkrete Regeln werden hier erst nach Prüfung ergänzt.",
+    "updates": "Eine bestätigte Übersicht zu temporären Sperrungen, aktuellen Waldhinweisen und allgemeinen Regeln liegt noch nicht vor. Prüfe vor dem Besuch die Informationen der zuständigen Stellen und beachte Beschilderungen vor Ort.",
+    "footer": "Zum Einstieg mit dem ÖPNV ist die Endhaltestelle Königsforst (KVB-Linie 9) als Startpunkt genannt. Aktuelle Verbindungen, Parkmöglichkeiten und Quellenhinweise findest du in den jeweiligen",
+    "natureSources": [
+      {"name": "Fauna Königsforst", "url": "https://www.wahnerheide-koenigsforst.de/fauna-koenigsforst.php"},
+      {"name": "Flora Königsforst", "url": "https://www.wahnerheide-koenigsforst.de/flora-koenigsforst.php"}
+    ]
+  },
+  "featured": [
+    {
+      "id": "monte-troodeloeh",
+      "name": "Monte Troodelöh",
+      "summary": "Der höchste geografische Punkt Kölns liegt im Wald. Eine große Findlingsmarkierung und ein Gipfelbuch kennzeichnen die sanfte Erhebung.",
+      "imageNote": "Kein geprüftes Foto vorhanden",
+      "status": "Quelle angegeben",
+      "source": "Stadt Köln – Informationen zum Königsforst",
+      "sourceUrl": "https://www.stadt-koeln.de/artikel/71314/index.html"
+    },
+    {
+      "id": "wildgehege-brueck",
+      "name": "Wildgehege Brück",
+      "summary": "Ein genanntes Ausflugsziel in der Brücker Hardt. Aktuelle Angaben zu Tierarten und Zugang bitte vor dem Besuch prüfen.",
+      "imageNote": "Kein geprüftes Foto vorhanden",
+      "status": "Zu prüfen",
+      "source": "Wahner Heide & Königsforst",
+      "sourceUrl": "https://www.wahnerheide-koenigsforst.de/"
+    }
+  ],
+  "visit": [
+    {
+      "title": "Einstiege & Startpunkte",
+      "text": "Als mögliche Startpunkte sind die Endhaltestelle Königsforst, die Parkplätze Forsbacher Straße, Königsforster Straße, Lützerather Straße und Forsbacher Mühle sowie Forsthaus Steinhaus erfasst. Adressen, Kapazitäten und aktuelle Zugänge sind nicht durchgehend geprüft.",
+      "status": "Zu prüfen",
+      "details": [
+        ["ÖPNV", "Endhaltestelle Königsforst, KVB-Linie 9"],
+        ["Wandern", "Forsbacher Straße, Königsforster Straße, Lützerather Straße, Forsbacher Mühle"]
+      ],
+      "source": "Kölner Eifelverein – Rundwanderwege",
+      "sourceUrl": "https://www.koelner-eifelverein.de/unsere-wanderwege/rundwanderwege/"
+    },
+    {
+      "title": "Pausen & Picknick",
+      "text": "Die Wassertretstelle am Giesbach und einzelne Ziele werden als mögliche Pausenorte genannt. Eine vollständige, bestätigte Übersicht zu Picknickplätzen, Bänken und Schutzhütten liegt nicht vor.",
+      "status": "Zu prüfen",
+      "source": "Stadt Köln – Radtour im Königsforst",
+      "sourceUrl": "https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/ferien-freizeit/mit-dem-rad-im-koenigsforst"
+    },
+    {
+      "title": "Mit Kindern unterwegs",
+      "text": "Als mögliche Ziele werden unter anderem Wildgehege Brück, Monte Troodelöh und Gut Leidenhausen am Waldrand genannt. Verifizierte kurze Familienrouten mit Distanzen zwischen den Zielen fehlen noch.",
+      "status": "Noch nicht bestätigt",
+      "source": "Wahner Heide & Königsforst",
+      "sourceUrl": "https://www.wahnerheide-koenigsforst.de/"
+    },
+    {
+      "title": "Mit Hund",
+      "text": "Geprüfte Regeln zur Leinenpflicht und zum Verhalten mit Hund liegen in der Faktenübersicht nicht vor.",
+      "status": "Noch nicht bestätigt"
+    },
+    {
+      "title": "Tageslicht & Wetter",
+      "text": "Verlässliche Angaben zur Helligkeit im Winter, aktuellem Wetter und Wegezustand sind nicht erfasst. Bitte prüfe Wetter und Lichtverhältnisse vor Ort und vor dem Aufbruch.",
+      "status": "Noch nicht bestätigt"
+    },
+    {
+      "title": "Essen, Toiletten & Schmitzebud",
+      "text": "Eine bestätigte Übersicht zu Toiletten und Gastronomie fehlt. Öffnungszeiten, Speisekarte, Preise und Kartenzahlung der Schmitzebud sind nicht erhoben.",
+      "status": "Noch nicht bestätigt"
+    }
+  ],
+  "activities": [
+    {
+      "title": "Natur beobachten",
+      "text": "Im Königsforst werden alte Buchen- und Eichenbestände, feuchte Bereiche, Bäche und offene Lebensräume beschrieben. Pflanzen und Tiere lassen sich dabei nicht zuverlässig an einem bestimmten Ort oder Tag erwarten.",
+      "status": "Artenangaben teils zu prüfen",
+      "source": "Wahner Heide & Königsforst – Flora und Fauna",
+      "sourceUrl": "https://www.wahnerheide-koenigsforst.de/"
+    },
+    {
+      "title": "Führungen & Kurse",
+      "text": "Recherchiert wurden unter anderem geführte Waldspaziergänge, Kräuterwanderungen, Vogelbeobachtungen und Angebote der Umweltbildung. Termine, Verfügbarkeit und Anmeldung ändern sich und müssen beim jeweiligen Anbieter geprüft werden.",
+      "status": "Termine zu prüfen",
+      "source": "Kölner VHS – Kräuterwanderung",
+      "sourceUrl": "https://www.koelner-vhs.de/kurssuche/kurs/Kraeuterwanderung-im-Koenigsforst/27E128022"
+    },
+    {
+      "title": "Radtour mit Stopps",
+      "text": "Die Tour 16 der Stadt Köln führt unter anderem zu Wildgehege Brück, Monte Troodelöh und optional zur Wassertretstelle am Giesbach. Aktuelle Streckeninformationen und GPX-Nutzungsbedingungen bitte bei der Stadt Köln prüfen.",
+      "status": "Quelle angegeben",
+      "source": "Stadt Köln – Mit dem Rad im Königsforst",
+      "sourceUrl": "https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/ferien-freizeit/mit-dem-rad-im-koenigsforst"
+    },
+    {
+      "title": "Angebote am Waldrand",
+      "text": "Gut Leidenhausen liegt am Rand des Königsforsts. Dort recherchierte Umweltbildungsangebote sind nicht automatisch Angebote im Wald; Programm und Öffnungszeiten bitte direkt beim Anbieter prüfen.",
+      "status": "Zu prüfen",
+      "source": "Gut Leidenhausen",
+      "sourceUrl": "https://www.gut-leidenhausen.de/"
+    }
+  ],
+  "routes": [
+    {
+      "group": "Markierte Rundwanderwege",
+      "items": [
+        {"name": "A1 ab Parkplatz Forsbacher Straße", "start": "Parkplatz Forsbacher Straße", "distance": "6,1 km", "duration": "ca. 1 Std. 30 Min.", "difficulty": "Leicht"},
+        {"name": "A2 ab Parkplatz Forsbacher Straße", "start": "Parkplatz Forsbacher Straße", "distance": "4,5 km", "duration": "ca. 1 Std. 10 Min.", "difficulty": "Leicht"},
+        {"name": "A1 ab Parkplatz Königsforster Straße", "start": "Parkplatz Königsforster Straße", "distance": "5,4 km", "duration": "ca. 1 Std. 20 Min.", "difficulty": "Leicht"},
+        {"name": "A2 ab Parkplatz Lützerather Straße", "start": "Parkplatz Lützerather Straße", "distance": "6,5 km", "duration": "ca. 1 Std. 40 Min.", "difficulty": "Leicht bis mittel"},
+        {"name": "A3 ab Parkplatz Lützerather Straße", "start": "Parkplatz Lützerather Straße", "distance": "7,3 km", "duration": "ca. 1 Std. 50 Min.", "difficulty": "Mittel"},
+        {"name": "A1 ab Parkplatz Forsbacher Mühle", "start": "Parkplatz Forsbacher Mühle", "distance": "8,2 km", "duration": "ca. 2 Std. 10 Min.", "difficulty": "Mittel"},
+        {"name": "A2 ab Parkplatz Forsbacher Mühle", "start": "Parkplatz Forsbacher Mühle", "distance": "4,7 km", "duration": "ca. 1 Std. 10 Min.", "difficulty": "Leicht"},
+        {"name": "A3 ab Parkplatz Forsbacher Mühle", "start": "Parkplatz Forsbacher Mühle", "distance": "5,8 km", "duration": "ca. 1 Std. 30 Min.", "difficulty": "Leicht bis mittel"}
+      ],
+      "source": "Kölner Eifelverein – Rundwanderwege",
+      "sourceUrl": "https://www.koelner-eifelverein.de/unsere-wanderwege/rundwanderwege/"
+    },
+    {
+      "group": "Längere Wandertouren",
+      "items": [
+        {"name": "Rundwanderung um den Königsforst", "start": "Noch nicht bestätigt", "distance": "21 km", "duration": "ca. 5 Std. 30 Min. bis 6 Std.", "difficulty": "Mittel bis anspruchsvoll", "note": "Mit Abkürzungen werden etwa 16,5 km oder 11 km genannt."},
+        {"name": "Rundwanderung ab Forsthaus Steinhaus", "start": "Forsthaus Steinhaus", "distance": "Noch nicht bestätigt", "duration": "ca. 3 Std.", "difficulty": "Mittel bis anspruchsvoll", "note": "Die Strecke enthält zwei längere Anstiege."}
+      ],
+      "source": "Kölner Eifelverein; Stadtportal Köln; Wahner Heide & Königsforst",
+      "sourceUrl": "https://www.wahnerheide-koenigsforst.de/"
+    },
+    {
+      "group": "Radfahren",
+      "items": [
+        {"name": "Tour 16 – Mit dem Rad im Königsforst", "start": "Stadtbahn-Endhaltestelle Königsforst, KVB-Linie 9", "distance": "ca. 17 km", "duration": "ca. 1 Std. 15 Min. bis 1 Std. 45 Min.", "difficulty": "Leicht bis mittel", "note": "Die Angabe von ca. 17 km schließt einen 1,2 km langen Abstecher zur Wassertretstelle ein."}
+      ],
+      "source": "Stadt Köln – Mit dem Rad im Königsforst",
+      "sourceUrl": "https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/ferien-freizeit/mit-dem-rad-im-koenigsforst"
+    },
+    {
+      "group": "Reitwege",
+      "items": [
+        {"name": "Wegenetz Königsforst und nördliche Wahner Heide", "start": "Einzelne Einstiege und Eignung von Parkplätzen bitte prüfen", "distance": "Zusammenhängendes Wegenetz: ca. 30 km", "duration": "Noch nicht bestätigt", "difficulty": "Noch nicht bestätigt", "note": "Die Länge bezieht sich auf das Wegenetz, nicht auf eine einzelne Rundroute oder ausschließlich den Königsforst."}
+      ],
+      "source": "Heideportal Burg Wissem; Rheinisch-Bergischer Kreis",
+      "sourceUrl": "https://www.heideportal-burgwissem.de/wahner-heide/reitwege/"
+    }
+  ],
+  "animals": [
+    {"name": "Schwarzspecht", "detail": "Großer Specht; legt Höhlen in alten Bäumen an.", "status": "Quelle angegeben; aktuelles Vorkommen zu prüfen"},
+    {"name": "Mittelspecht", "detail": "Wird mit alten Eichen- und Buchenbeständen sowie Totholz in Verbindung gebracht.", "status": "Zu prüfen"},
+    {"name": "Grauspecht", "detail": "Wird mit älteren Wäldern und Totholz in Verbindung gebracht.", "status": "Zu prüfen"},
+    {"name": "Eisvogel", "detail": "Jagt an naturnahen Bächen und Gewässern.", "status": "Zu prüfen"},
+    {"name": "Feuersalamander", "detail": "Lebensraum: feuchte, schattige Wälder und Quellbäche.", "status": "Zu prüfen"},
+    {"name": "Kammmolch", "detail": "Wird mit Stillgewässern und Teichen in Verbindung gebracht.", "status": "Zu prüfen"},
+    {"name": "Wildschwein", "detail": "Freilebende Tiere nicht mit Tieren in Wildgehegen verwechseln; Begegnungshinweise sind noch nicht verifiziert.", "status": "Hinweise noch nicht bestätigt"}
+  ],
+  "plants": [
+    {"name": "Hainsimsen-Buchenwald", "detail": "Als charakteristischer Waldtyp recherchiert.", "status": "Quelle angegeben"},
+    {"name": "Stieleiche", "detail": "Eichenbestände werden als Teil der Waldlandschaft beschrieben.", "status": "Quelle angegeben"},
+    {"name": "Sumpf-Dotterblume", "detail": "Gelbe Blüten in feuchten Lebensräumen, besonders im Frühjahr.", "status": "Vorkommen zu prüfen"},
+    {"name": "Schmalblättriges Wollgras", "detail": "Wird für feuchte Lebensräume beschrieben; die weißen Fruchtstände sind saisonal.", "status": "Saisonal; Vorkommen zu prüfen"},
+    {"name": "Südlicher Wasserschlauch", "detail": "Wasserpflanze, die kleine Wasserorganismen fängt.", "status": "Vorkommen zu prüfen"},
+    {"name": "Glockenheide", "detail": "Wird als saisonaler Hinweis auf ehemalige Heideflächen genannt.", "status": "Saisonal; zu prüfen"}
+  ],
+  "destinations": [
+    {
+      "id": "monte-troodeloeh",
+      "name": "Monte Troodelöh",
+      "text": "Mit 118,04 m der höchste geografische Punkt Kölns. Die sanfte Erhebung liegt im Wald und ist durch einen Findling und ein Holzkreuz mit Gipfelbuch markiert; ein weiter Aussichtspunkt ist nicht zu erwarten.",
+      "status": "Quelle angegeben",
+      "source": "Stadt Köln – Informationen zum Königsforst",
+      "sourceUrl": "https://www.stadt-koeln.de/artikel/71314/index.html"
+    },
+    {
+      "id": "wildgehege-brueck",
+      "name": "Wildgehege Brück",
+      "text": "Als Ausflugsziel in der Brücker Hardt recherchiert. Die aktuell vorkommenden Tierarten, Zugangsbedingungen und Besucherinformationen müssen geprüft werden.",
+      "status": "Zu prüfen",
+      "source": "Wahner Heide & Königsforst",
+      "sourceUrl": "https://www.wahnerheide-koenigsforst.de/"
+    },
+    {
+      "id": "kettners-weiher",
+      "name": "Kettners Weiher",
+      "text": "Kleiner Waldweiher im nördlichen Königsforst, nahe Bergisch Gladbach-Refrath. Genaue Lage und aktuelle Bedingungen sind noch zu prüfen.",
+      "status": "Zu prüfen",
+      "source": "Lokale Routenbeschreibungen; Komoot-Referenzen",
+      "sourceUrl": ""
+    },
+    {
+      "id": "giesbach",
+      "name": "Wassertretstelle am Giesbach",
+      "text": "Als möglicher Abstecher auf der Radtour der Stadt Köln genannt. Zustand und Verfügbarkeit der genannten Einrichtungen sind nicht bestätigt.",
+      "status": "Zu prüfen",
+      "source": "Stadt Köln – Mit dem Rad im Königsforst",
+      "sourceUrl": "https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/ferien-freizeit/mit-dem-rad-im-koenigsforst"
+    },
+    {
+      "id": "steinhaus",
+      "name": "Forsthaus Steinhaus",
+      "text": "Wird als Ausgangspunkt und Ziel längerer Wanderungen genannt. Besucherangebote und Öffnungszeiten sind nicht bestätigt.",
+      "status": "Zu prüfen",
+      "source": "Wahner Heide & Königsforst",
+      "sourceUrl": "https://www.wahnerheide-koenigsforst.de/"
+    },
+    {
+      "id": "gut-leidenhausen",
+      "name": "Gut Leidenhausen",
+      "text": "Historischer Hof am südlichen Rand des Königsforsts, nicht zwingend innerhalb des Waldes. Aktuelle Angebote und Einrichtungen bitte beim Betreiber prüfen.",
+      "status": "Zu prüfen",
+      "source": "Gut Leidenhausen",
+      "sourceUrl": "https://www.gut-leidenhausen.de/"
+    }
+  ],
+  "unknown": {
+    "rules": "Noch nicht bestätigt",
+    "closures": "Noch nicht bestätigt",
+    "accessibility": "Noch nicht bestätigt",
+    "facilities": "Noch nicht bestätigt"
+  }
+}

@@ -1,179 +1,157 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#f3f3f3">
-	<title>Königsforst — plan your visit</title>
-	<style>
-		:root {
-			color-scheme: light;
-			font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-			color: #202020;
-			background: #f3f3f3;
-			font-synthesis: none;
-			text-rendering: optimizeLegibility;
-		}
-
-		* { box-sizing: border-box; }
-
-		body {
-			margin: 0;
-			min-width: 320px;
-			padding: 24px 16px;
-		}
-
-		main {
-			width: min(100%, 520px);
-			margin: 0 auto;
-			overflow: hidden;
-			border: 1px solid #dedede;
-			border-radius: 24px;
-			background: #fff;
-			box-shadow: 0 12px 36px rgb(0 0 0 / 7%);
-		}
-
-		.hero {
-			position: relative;
-			overflow: hidden;
-			padding: 32px 24px 104px;
-			background: #f3f3f3;
-			border-bottom: 1px solid #dedede;
-		}
-
-		.hero > :not(.forest-silhouette) {
-			position: relative;
-			z-index: 1;
-		}
-
-		.forest-silhouette {
-			position: absolute;
-			bottom: -1px;
-			left: 0;
-			width: 100%;
-			height: 82px;
-			fill: #111;
-		}
-
-		.eyebrow {
-			margin: 0 0 10px;
-			color: #626262;
-			font-size: 0.75rem;
-			font-weight: 700;
-			letter-spacing: 0.12em;
-			text-transform: uppercase;
-		}
-
-		h1 {
-			margin: 0;
-			font-size: clamp(2.4rem, 11vw, 3.4rem);
-			letter-spacing: -0.07em;
-			line-height: 1;
-		}
-
-		address {
-			margin-top: 16px;
-			color: #555;
-			font-size: 0.95rem;
-			font-style: normal;
-		}
-
-		section { padding: 24px; }
-
-		h2 {
-			margin: 0 0 12px;
-			font-size: 1.2rem;
-			letter-spacing: -0.03em;
-		}
-
-		.intro {
-			margin: 0;
-			color: #4b4b4b;
-			font-size: 0.96rem;
-			line-height: 1.65;
-		}
-
-		.questions {
-			padding-top: 4px;
-		}
-
-		ol {
-			display: grid;
-			gap: 10px;
-			margin: 18px 0 0;
-			padding: 0;
-			list-style: none;
-			counter-reset: question;
-		}
-
-		li {
-			display: grid;
-			grid-template-columns: 32px 1fr;
-			align-items: start;
-			gap: 12px;
-			padding: 14px;
-			border: 1px solid #e5e5e5;
-			border-radius: 36px;
-			color: #303030;
-			font-size: 0.94rem;
-			line-height: 1.5;
-			counter-increment: question;
-		}
-
-		li::before {
-			display: grid;
-			width: 30px;
-			height: 30px;
-			place-items: center;
-			border-radius: 50%;
-			background: #ededed;
-			color: #444;
-			content: counter(question, decimal-leading-zero);
-			font-size: 0.72rem;
-			font-weight: 700;
-		}
-
-		footer {
-			padding: 0 24px 24px;
-			color: #777;
-			font-size: 0.78rem;
-		}
-
-		@media (min-width: 600px) {
-			body { padding: 48px 24px; }
-			.hero, section { padding-right: 32px; padding-left: 32px; }
-			footer { padding-right: 32px; padding-left: 32px; }
-		}
-	</style>
+	<meta name="description" content="Informationen zu Wegen, Natur und Besuchsplanung im Königsforst.">
+	<title>Königsforst — Wege, Natur und Besuch planen</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js" defer></script>
 </head>
 <body>
-	<main>
-		<header class="hero">
-			<p class="eyebrow">A day outdoors · Köln</p>
-			<h1>Königsforst</h1>
-			<address>Königsforst 51107, Köln</address>
-			<svg class="forest-silhouette" viewBox="0 0 520 82" preserveAspectRatio="none" aria-hidden="true">
-				<path d="M0 82V58l14-17h-8L24 21h-7L32 2l15 19h-7l18 20h-8l15 17v-9l13-16h-7l17-21h-7L93 0l17 22h-7l17 21h-8l14 17v-7l17-21h-9l21-25h-8L172 0l22 27h-9l20 25h-9l14 18v-9l14-17h-8l18-24h-8l16-20 17 20h-8l18 24h-8l14 17v-8l15-18h-8l19-24h-8l16-20 17 20h-8l19 24h-9l14 18v-8l15-18h-8l18-23h-7l16-20 17 20h-8l18 23h-8l15 18v-10l13-16h-7l18-22h-8l16-20 17 20h-8l18 22h-8l14 16v-7l13-15h-7l17-21h-8l15-18 17 18h-8l17 21h-8l14 15v31H0Z"/>
-			</svg>
-		</header>
+	<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+	<header class="site-header">
+		<div class="header-inner">
+			<a class="wordmark" href="#start" aria-label="Königsforst — zur Startseite">Königsforst<span>Wald entdecken</span></a>
+			<nav aria-label="Hauptnavigation">
+				<a href="#besuch">Besuch planen</a>
+				<a href="#aktivitaeten">Aktivitäten</a>
+				<a href="#wege">Wege</a>
+				<a href="#natur">Natur</a>
+				<a href="#hinweise">Hinweise &amp; Regeln</a>
+			</nav>
+		</div>
+	</header>
 
-		<section aria-labelledby="story-title">
-			<h2 id="story-title">Plan a Saturday in the forest</h2>
-			<p class="intro">A young mother wants to spend a Saturday afternoon exploring the Königsforst with her 10-year-old daughter and their dog. They are looking for an easy, family-friendly walking route with interesting things to discover along the way. Before setting off, the mother searches online for suitable trails, a convenient starting point and information about the rules for dogs. However, the information is spread across several websites, making it difficult to find everything she needs at a glance. A central, mobile-friendly website could bring together walking routes, directions, family-friendly highlights and dog regulations, helping them plan a fun and stress-free day outdoors.</p>
+	<main id="inhalt">
+		<section class="hero page-width" id="start" aria-labelledby="haupttitel">
+			<div class="hero-copy">
+				<p class="eyebrow">Köln · Natur erleben</p>
+				<h1 id="haupttitel">Ein Wald.<br>Viele Wege.</h1>
+				<p class="hero-intro" id="hero-intro"></p>
+				<a class="text-link" href="#besuch">Besuch planen <span aria-hidden="true">→</span></a>
+			</div>
+
+			<div class="hero-visuals">
+				<section class="map-panel" aria-labelledby="karten-titel">
+					<div class="panel-heading">
+						<div>
+							<p class="eyebrow">Orientierung</p>
+							<h2 id="karten-titel">Karte &amp; Wege</h2>
+						</div>
+						<p class="status-label" id="map-status"></p>
+					</div>
+					<p class="map-note" id="map-note"></p>
+					<ul class="route-legend" aria-label="Wegtypen">
+						<li><span class="line-sample walking" aria-hidden="true"></span>Wandern</li>
+						<li><span class="line-sample cycling" aria-hidden="true"></span>Radfahren</li>
+						<li><span class="line-sample riding" aria-hidden="true"></span>Reiten</li>
+					</ul>
+					<a class="text-link" href="#wege">Routen und Details ansehen <span aria-hidden="true">→</span></a>
+				</section>
+
+				<div class="featured-grid" id="startziele" aria-label="Vorgestellte Waldziele"></div>
+			</div>
 		</section>
 
-		<section class="questions" aria-labelledby="questions-title">
-			<h2 id="questions-title">What would you like to know?</h2>
-			<ol>
-				<li>Where can I enter the forest, and which walking and cycling routes are available?</li>
-				<li>What can I discover in the forest? Flora and fauna?</li>
-				<li>How do I get there by car, train or bike?</li>
-				<li>What rules do I need to follow? Are there guided walks, tours or upcoming events?</li>
-				<li>Are the paths suitable for people with limited mobility? What should I know before visiting today, such as hunting times?</li>
-			</ol>
+		<section class="intro-strip" aria-label="Über den Königsforst">
+			<div class="page-width intro-strip-inner">
+				<p class="eyebrow">Draußen unterwegs</p>
+				<p id="intro-overview"></p>
+			</div>
 		</section>
 
-		<footer>Enjoy your adventure, explore gently and have a great time on your visit.</footer>
+		<section class="content-section page-width" id="besuch" aria-labelledby="besuch-titel">
+			<div class="section-heading">
+				<p class="eyebrow">Gut vorbereitet</p>
+				<h2 id="besuch-titel">Deinen Besuch planen</h2>
+				<p>Praktische Informationen zu Einstieg, Pausen und dem, was vor dem Losgehen wichtig ist.</p>
+			</div>
+			<div id="besuch-grid" class="info-grid"></div>
+		</section>
+
+		<section class="dark-section" id="aktivitaeten" aria-labelledby="aktivitaeten-titel">
+			<div class="page-width content-section">
+				<div class="section-heading">
+					<p class="eyebrow">Draußen sein</p>
+					<h2 id="aktivitaeten-titel">Aktivitäten &amp; Entdeckungen</h2>
+					<p>Was sich im Wald und in der Umgebung unternehmen lässt — aktuelle Termine bitte beim jeweiligen Anbieter prüfen.</p>
+				</div>
+				<div id="aktivitaeten-grid" class="info-grid"></div>
+			</div>
+		</section>
+
+		<section class="content-section page-width" id="wege" aria-labelledby="wege-titel">
+			<div class="section-heading">
+				<p class="eyebrow">Unterwegs im Wald</p>
+				<h2 id="wege-titel">Wander- &amp; Radrouten</h2>
+				<p>Angaben zu Länge, Dauer und Startpunkten stammen aus den in der Faktenübersicht genannten Quellen. Vor der Tour bitte die aktuelle Originalbeschreibung prüfen.</p>
+			</div>
+			<div id="wege-liste" class="route-sections"></div>
+			<aside class="notice">
+				<h3>Barrierearme Wege</h3>
+				<p>Verlässliche Angaben zu Oberfläche, Steigungen und Zugänglichkeit einzelner Wege liegen noch nicht vollständig vor. Bitte plane nicht allein anhand der genannten Streckenlänge.</p>
+			</aside>
+		</section>
+
+		<section class="dark-section" id="natur" aria-labelledby="natur-titel">
+			<div class="page-width content-section">
+				<div class="section-heading">
+					<p class="eyebrow">Lebensräume</p>
+					<h2 id="natur-titel">Alles über Natur</h2>
+					<p id="nature-intro"></p>
+				</div>
+				<div class="nature-grid">
+					<section class="subsection" aria-labelledby="tiere-titel">
+						<h3 id="tiere-titel">Tiere</h3>
+						<div id="tierliste" class="compact-list"></div>
+					</section>
+					<section class="subsection" aria-labelledby="pflanzen-titel">
+						<h3 id="pflanzen-titel">Pflanzen</h3>
+						<div id="pflanzenliste" class="compact-list"></div>
+					</section>
+				</div>
+				<p class="nature-source" id="nature-source"></p>
+				<aside class="notice notice-light">
+					<h3>Wildtier begegnet?</h3>
+					<p id="nature-notice"></p>
+				</aside>
+			</div>
+		</section>
+
+		<section class="content-section page-width" id="ziele" aria-labelledby="ziele-titel">
+			<div class="section-heading">
+				<p class="eyebrow">Orte im und am Wald</p>
+				<h2 id="ziele-titel">Ziele entdecken</h2>
+			</div>
+			<div id="ziel-liste" class="info-grid"></div>
+		</section>
+
+		<section class="updates-section" id="hinweise" aria-labelledby="hinweise-titel">
+			<div class="page-width updates-inner">
+				<div>
+					<p class="eyebrow">Aktueller Stand</p>
+					<h2 id="hinweise-titel">Meldungen &amp; Regeln</h2>
+				</div>
+				<p id="updates-text"></p>
+			</div>
+		</section>
 	</main>
+
+	<footer class="site-footer">
+		<div class="page-width footer-inner">
+			<div>
+				<a class="wordmark" href="#start">Königsforst<span>Wald entdecken</span></a>
+				<p>Fehlende oder unsichere Angaben sind ausdrücklich gekennzeichnet.</p>
+			</div>
+			<div>
+				<h2>Anreise &amp; Quellen</h2>
+				<p id="footer-text"></p>
+			</div>
+		</div>
+	</footer>
+
+	<p id="ladefehler" class="load-error" role="alert" hidden>Die Fakten konnten nicht geladen werden. Bitte lade die Seite erneut oder prüfe die Verbindung.</p>
 </body>
 </html>
